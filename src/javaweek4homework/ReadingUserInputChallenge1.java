@@ -30,7 +30,7 @@ public class ReadingUserInputChallenge1 {
         Scanner scanner = new Scanner(System.in);
         int validNumber = 1;
         int sum = 0;
-        while (validNumber <= 3) {
+        while (validNumber <= 10) {
             System.out.println("Enter number #" + validNumber);
             if (scanner.hasNextInt()) {
                 sum = sum + scanner.nextInt();
